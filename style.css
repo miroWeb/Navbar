@@ -35,6 +35,10 @@ body {
   color: #fff;
 }
 
+.ulEl > li {
+  cursor: pointer;
+}
+
 .btn {
   width: 30px;
   padding: 4px;
