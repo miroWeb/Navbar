@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: #000;
+}
+
+.container {
+  padding: 43px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #fff;
+}
+
+.ulEl {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  color: #fff;
+}
+
+.btn {
+  width: 30px;
+  padding: 4px;
+  background-color: yellow;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
