@@ -30,8 +30,9 @@ body {
 
 .ulEl {
   display: flex;
+  align-items: center;
   list-style: none;
-  gap: 10px;
+  gap: 13px;
   color: #fff;
 }
 
@@ -42,7 +43,7 @@ body {
 .btn {
   width: 30px;
   padding: 4px;
-  background-color: yellow;
+  background-color: #FCC61E;
   border: none;
   border-radius: 5px;
   cursor: pointer;
