@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto+Condensed&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  height: 100%;
+  background: #191919;
+}
+
+.container {
+  padding: 33px 20px;
+  background-color: #000;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #fff;
+}
+
+.ulEl {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+}
+
+.ulEl > li {
+  cursor: pointer;
+}
+
+li > a {
+  white-space: nowrap;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  max-width: 50px;
+  width: 100%;
+  padding: 5px;
+  background-color: #fcc61e;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* DROPWOEN */
+.selectedImg {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.drop-down {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.322); */
+  width: 65px;
+  padding: 3px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.list {
+  background-color: #fff;
+  position: absolute;
+  top: 21px;
+  left: 0;
+  border-radius: 0 0 5px 5px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.322); */
+  cursor: pointer;
+  max-height: 250px;
+  width: 100%;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem 1rem;
+  gap: 0.5rem;
+}
+
+.item:hover {
+  background-color: rgb(211, 211, 211);
+}
+
+/* LOGIN PAGE */
+.page {
+  max-width: 400px;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
