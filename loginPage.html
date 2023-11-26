@@ -1,24 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page</title>
-  <link rel="stylesheet" href="./css/loginPage.css">
-</head>
-<body>
-  
-  <div class="page">
-    <div class="box">
-    <div>
-    <input type="text">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./css/loginPage.css" />
+  </head>
+  <body>
+    <div class="page">
+      <form>
+        <div class="inp_email">
+          <h2 class="loginText">Login</h2>
+          <p>Email</p>
+          <input class="inp" type="email" />
+        </div>
+        <div class="inp_email">
+          <p>Password</p>
+          <input class="inp" id="inp" type="password" />
+          <div class="chek_box">
+            <!-- chekbox -->
+            <div>
+              <input type="checkbox" id="cbx2" style="display: none" />
+              <label for="cbx2" class="check">
+                <svg width="18px" height="18px" viewBox="0 0 18 18">
+                  <path
+                    d="M 1 9 L 1 9 c 0 -5 3 -8 8 -8 L 9 1 C 14 1 17 5 17 9 L 17 9 c 0 4 -4 8 -8 8 L 9 17 C 5 17 1 14 1 9 L 1 9 Z"
+                  ></path>
+                  <polyline points="1 9 7 14 15 4"></polyline>
+                </svg>
+              </label>
+            </div>
+            <span class="chekText">Remember me?</span>
+            <!-- chekbox -->
+          </div>
+        </div>
+        <div>
+          <button class="btn">Login</button>
+        </div>
+      </form>
+      <fieldset class="fieldset">
+        <legend class="or">OR</legend>
+      </fieldset>
+      <div class="google_div">
+        <img class="google" src="./img/google-icon.png" alt="">
+      </div>
+      <div class="pag_footer">
+        <span>Need an account?</span>
+        <a href="#">SIGN UP</a>
+      </div>
     </div>
-    <div>
-    <input type="text">
-    </div>
-    </div> 
-  </div>
-
-</body>
+  </body>
 </html>

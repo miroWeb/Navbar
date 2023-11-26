@@ -117,13 +117,3 @@ li > a {
 .item:hover {
   background-color: rgb(211, 211, 211);
 }
-
-/* LOGIN PAGE */
-.page {
-  max-width: 400px;
-  width: 100%;
-  background-color: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
