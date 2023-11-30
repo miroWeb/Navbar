@@ -36,9 +36,51 @@ form {
   gap: 15px;
 }
 
+.login_and_signUp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #777;
+  color: #fff;
+  width: 360px;
+  position: relative;
+  top: -25px;
+  border-radius: 5px 5px 0 0;
+  padding: 10px 80px;
+}
+
+.login_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .loginText {
   margin-bottom: 15px;
   font-size: 23px;
+  cursor: pointer;
+  position: relative;
+  top: 7px;
+}
+
+.signUp_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignUpText {
+  position: relative;
+  top: 7px;
+  margin-bottom: 15px;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.email_text {
+  position: relative;
+  left: -132px;
+  top: 9px;
 }
 
 .inp {
@@ -169,7 +211,7 @@ form {
 }
 
 .or {
-  border: 1px solid #6C6C6C;
+  border: 1px solid #6c6c6c;
   text-align: center;
   border-radius: 5px;
   width: 25px;
@@ -202,11 +244,14 @@ form {
 }
 
 .pag_footer > a {
-  color: #6C6C6C;
+  color: #6c6c6c;
 }
 @media (max-width: 380px) {
   .page {
     max-width: 340px;
     width: 100%;
+  }
+  .login_and_signUp {
+    width: 340px;
   }
 }

@@ -29,6 +29,8 @@ body {
 
 .logo {
   color: #fff;
+  position: relative;
+  top: -2px;
 }
 
 .ulEl {
