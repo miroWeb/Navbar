@@ -21,32 +21,59 @@ body {
 }
 
 .page {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
   max-width: 360px;
   width: 100%;
-  padding: 25px 15px;
+  height: 530px;
+  padding: 10px 15px;
   border-radius: 5px;
   background-color: #fff;
 }
 
-form {
-  display: flex;
+.form1 {
+  display: block;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 15px;
+  position: relative;
+  left: 15px;
+}
+
+.form2 {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  left: 15px;
 }
 
 .login_and_signUp {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 90px;
   background-color: #777;
   color: #fff;
   width: 360px;
   position: relative;
   top: -25px;
+  left: -30px;
   border-radius: 5px 5px 0 0;
-  padding: 10px 80px;
+  padding: 10px 0px;
+}
+
+
+.inp_email {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 300px;
+  width: 100%;
 }
 
 .login_div {
@@ -77,10 +104,9 @@ form {
   cursor: pointer;
 }
 
-.email_text {
+.username_text {
   position: relative;
-  left: -132px;
-  top: 9px;
+  top: -2px;
 }
 
 .inp {
@@ -89,6 +115,19 @@ form {
   border-radius: 5px;
   outline: none;
   border: 1px solid rgb(166, 167, 159);
+  margin-bottom: 30px;
+}
+.inp2 {
+  width: 300px;
+  padding: 11px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(166, 167, 159);
+  margin-bottom: 5px;
+}
+.inp_s {
+  position: relative;
+  top: -5px;
 }
 
 #inp {
@@ -97,12 +136,6 @@ form {
 
 .chekbox {
   cursor: pointer;
-}
-
-.inp_email {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
 }
 
 .inp_password {
@@ -119,7 +152,17 @@ form {
   border: none;
   background-color: #fcc61e;
   cursor: pointer;
-  margin-bottom: 26px;
+  margin-bottom: 40px;
+}
+.btn2 {
+  width: 300px;
+  border-radius: 5px;
+  padding: 11px;
+  border: none;
+  background-color: #fcc61e;
+  cursor: pointer;
+  position: relative;
+  top: -15px;
 }
 
 .chekText {
@@ -132,6 +175,8 @@ form {
   display: flex;
   align-items: center;
   gap: 5px;
+  margin-bottom: 30px;
+  margin-top: 8px;
 }
 
 .check {
@@ -220,9 +265,21 @@ form {
   align-items: center;
   justify-content: center;
   font-size: 14px;
-  margin-bottom: 23px;
+  margin-bottom: 45px;
 }
 
+.google_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.google_div2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -35px;
+}
 .google_div {
   display: flex;
   align-items: center;
@@ -246,6 +303,7 @@ form {
 .pag_footer > a {
   color: #6c6c6c;
 }
+
 @media (max-width: 380px) {
   .page {
     max-width: 340px;

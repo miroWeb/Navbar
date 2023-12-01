@@ -14,3 +14,6 @@ list.addEventListener("click", (e) => {
   selectedImg.src = img.src;
   selected.innerHTML = text.innerHTML;
 });
+
+
+
